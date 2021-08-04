@@ -1,0 +1,22 @@
+.newGame{
+  width: 45%;
+  height: 400px;
+  background-color:cadetblue;
+  border: 1px solid black;
+  margin-right: 5%;
+  float: right;
+}
+.showNum{
+width: 60%;
+height: 30px;
+margin-top: 30%;
+margin-left: 20%;
+margin-bottom: 30px;
+text-align: center;
+font-size: large;
+}
+.btn{
+display: block;
+margin: 0 auto;
+
+}

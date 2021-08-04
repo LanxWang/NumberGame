@@ -1,0 +1,26 @@
+.checkGame{
+  width: 45%;
+  height: 400px;
+  background-color:cadetblue;
+  border: 1px solid black;
+  margin-left:5%;
+}
+.tipTitle{
+  margin-top: 20px;
+  text-align: center;
+}
+.tips{
+  width: 244px;
+  height: 150px;
+  background-color: rgb(253, 253, 253);
+  margin-bottom: 20px;
+  overflow: auto;
+}
+.numInput{
+  display: block;
+  margin: 0 auto;
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+}
