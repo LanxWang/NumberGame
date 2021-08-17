@@ -15,16 +15,17 @@ function NewGame(props) {
   const [value,setValue] = React.useState(["","","",""])
   const [isDisplay,setIsDisplay] = React.useState(false)
     
+  React.useEffect(()=>{
+    showNum()
+  },[...newNum])
+
   function produceNewNum() {
     changeGameState(false)
     clearResult()
     clearInput()
     startTip()
-    console.log(`before newNum`, newNum)
     createNewNum()
-    console.log('createNum done')
-    console.log(`newNum:`, newNum)
-    showNum()  
+    // showNum()  
   }
 
   function showNum() {

@@ -3,7 +3,6 @@ import NewGame from './containers/NewGame'
 import CheckGame from './containers/CheckGame'
 import './index.css'
 export default class App extends Component {
-  
   render() {
     return (
       <div className='numGame'>
